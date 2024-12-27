@@ -7,7 +7,7 @@ function twenty_twenty_one_child_style() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style') );
 }
 
-// Media Size Subpage
+// Media Size Subpages
 // add_submenu_page(
 //     'upload.php', // page URL slug
 //     'Media Sizes', // page title
